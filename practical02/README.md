@@ -9,7 +9,7 @@ gcc -o Sum Sum.c
 ./Sum
 ```
 
-Run Conversion.f90:
+Run Conversion.f90 or Sum.f90:
 
 ```
 gfortran -o Conversion Conversion.f90
