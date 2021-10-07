@@ -10,10 +10,10 @@ int main(void) {
 	a = 0.0;
 	b = M_PI/3.0;
 	n = 12;
-	delta = (b-a)/(n-1);
+	delta = (b-a)/n;
 	
 	integral_sum = tan(a) + tan(b);
-	for (i=1; i<(n-1); i++) {
+	for (i=1; i<n; i++) {
 		integral_sum = integral_sum + 2 * tan(i * delta);
 	}
 	integral_sum = integral_sum * (b-a) / (2*n);
