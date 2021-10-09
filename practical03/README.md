@@ -1,15 +1,15 @@
 This folder contains completed C and Fortran code for the Week 3 practical.
 
-Run Loop.c:
+Run Trapezoidal.c:
 
 ```
-gcc -o Loop_c Loop.c -lm
-./Loop_c
+gcc -o Trapezoidal_c Trapezoidal.c -lm
+./Trapezoidal_c
 ```
 
-Run Loop.f90:
+Run Trapezoidal.f90:
 
 ```
-gfortran -o Loop_f Loop.f90
-./Loop_f
+gfortran -o Trapezoidal_f Trapezoidal.f90
+./Trapezoidal_f
 ```
