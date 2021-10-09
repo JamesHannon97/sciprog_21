@@ -18,7 +18,7 @@ implicit none
                 integral = integral + 2 * tan(i * delta)
         end do
         integral = integral * (b-a) / (2 * n)
-        write(6,*) 'Integral of tan(x) from 0 to pi/3 using trapezoidal rule and ',n-1,' equidistant points =',integral
+        write(6,*) 'Integral of tan(x) from 0 to pi/3 using trapezoidal rule and ',n+1,' equidistant points =',integral
         write(6,*) 'log(2) =',log(2.0)
 stop 
 end program loop

@@ -17,6 +17,6 @@ int main(void) {
 		integral_sum = integral_sum + 2 * tan(i * delta);
 	}
 	integral_sum = integral_sum * (b-a) / (2*n);
-	printf("Integral of tan(x) from 0 to pi/3 using trapezoidal rule and 11 equidistant points = %f\n",integral_sum);
+	printf("Integral of tan(x) from 0 to pi/3 using trapezoidal rule and 13 equidistant points = %f\n",integral_sum);
 	printf("Log(2) = %f\n",logf(2.0));
 }
