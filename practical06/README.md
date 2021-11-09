@@ -24,6 +24,7 @@ Finally, we use MakeFile:
 ```
 make -f MakeFile clean
 make -f MakeFile all
+./mmc
 ```
 
 ### Fortran code
@@ -50,4 +51,5 @@ Finally, we use MakeFilef:
 ```
 make -f MakeFilef clean
 make -f MakeFilef all
+./mmf
 ```
