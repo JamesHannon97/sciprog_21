@@ -1,3 +1,5 @@
+Update: I have chosen to focus on C coding. The fortran version of files are included for reference but may have less comments.
+
 # Scientific Programming Concepts PH502/ACM40660 Autumn 2021
 
 Fork this repository into your github account. From there; 
