@@ -1,4 +1,6 @@
-This folder contains completed C and Fortran code for the Week 6 practical.
+This folder contains completed C and Fortran code for the Week 7 practical.
+
+During this practical we used the Maclaurin series to approximate the exponential function (see polynomial files) and used dynamic memory allocation (see mem_alloc).
 
 ### C code
 
